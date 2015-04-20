@@ -13,6 +13,7 @@
 		A0BA59931AE4394A006821C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BA59921AE4394A006821C9 /* Images.xcassets */; };
 		A0BA59961AE4394A006821C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BA59941AE4394A006821C9 /* LaunchScreen.xib */; };
 		A0BA59A21AE4394A006821C9 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA59A11AE4394A006821C9 /* CalculatorTests.swift */; };
+		A0BA59AC1AE476BB006821C9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA59AB1AE476BB006821C9 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A0BA599B1AE4394A006821C9 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BA59A01AE4394A006821C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BA59A11AE4394A006821C9 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		A0BA59AB1AE476BB006821C9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A0BA598D1AE4394A006821C9 /* ViewController.swift */,
+				A0BA59AB1AE476BB006821C9 /* CalculatorBrain.swift */,
 				A0BA598F1AE4394A006821C9 /* Main.storyboard */,
 				A0BA59891AE4394A006821C9 /* Supporting Files */,
 			);
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BA59AC1AE476BB006821C9 /* CalculatorBrain.swift in Sources */,
 				A0BA598E1AE4394A006821C9 /* ViewController.swift in Sources */,
 				A0BA598C1AE4394A006821C9 /* AppDelegate.swift in Sources */,
 			);
